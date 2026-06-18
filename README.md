@@ -1,4 +1,4 @@
-# 🏨 Hotel Booking Cancellation Prediction — ANN 🚀
+#  Hotel Booking Cancellation Prediction — ANN 
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -11,7 +11,7 @@
 
 ---
 
-## 🌟 Features / Fonctionnalités
+##  Features / Fonctionnalités
 
 - **Interactive Dashboard**: Visualisations interactives et filtres dynamiques sur les données de réservation.
 - **Real-time Prediction**: Prédiction individuelle des annulations en temps réel.
@@ -39,7 +39,7 @@ hotel_ann_final/
 └── utils/                          # Utility functions
 ```
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### 1. Download Dataset / Télécharger le dataset
 Download `hotel_bookings.csv` from Kaggle and place it in the `assets/` directory.
@@ -69,5 +69,4 @@ Antonio, N., Almeida, A., & Nunes, L. (2019).
 Data in Brief, 22, 41-49.
 Available on Kaggle: [Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 
----
-*Created with ❤️*
+
