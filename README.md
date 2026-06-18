@@ -62,7 +62,7 @@ Run the Streamlit application:
 streamlit run app.py
 ```
 
-## 📊 Dataset Reference
+##  Dataset Reference
 
 Antonio, N., Almeida, A., & Nunes, L. (2019).
 *Hotel booking demand datasets.*
