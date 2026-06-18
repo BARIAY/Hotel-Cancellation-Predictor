@@ -1,0 +1,198 @@
+/* =============================================================================
+   Hotel Booking ANN — Styles globaux
+   Palette : bleus académiques + accents rouge/vert pour les statuts
+   ============================================================================= */
+
+.main .block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+[data-testid="stSidebarNav"] {
+    display: none;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.card:hover {
+    box-shadow: 0 6px 18px rgba(37, 99, 235, 0.15);
+    transform: translateY(-2px);
+}
+
+/* KPI Cards */
+.kpi-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.25rem;
+    text-align: center;
+    border-top: 4px solid #2563eb;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.kpi-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    line-height: 1.2;
+}
+.kpi-label {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-top: 0.25rem;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 24px rgba(30, 58, 95, 0.18);
+}
+.hero h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.92;
+    max-width: 680px;
+    margin: 0 auto 1rem;
+    line-height: 1.6;
+}
+
+/* Badges technos */
+.tech-badge {
+    display: inline-block;
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+    border-radius: 20px;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin: 0.25rem;
+}
+
+/* Result cards */
+.result-cancel {
+    background: #fef2f2;
+    border: 2px solid #dc2626;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+.result-confirm {
+    background: #f0fdf4;
+    border: 2px solid #16a34a;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Section headers */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    border-left: 4px solid #2563eb;
+    padding-left: 0.75rem;
+    margin: 1.5rem 0 1.25rem 0;
+}
+
+/* Footer */
+.footer {
+    background: #1e3a5f;
+    color: #94a3b8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+/* Alerts */
+.alert-info {
+    background: #eff6ff;
+    border-left: 4px solid #2563eb;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #1e3a5f;
+    margin: 0.75rem 0;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+.alert-success {
+    background: #f0fdf4;
+    border-left: 4px solid #16a34a;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #14532d;
+    margin: 0.75rem 0;
+}
+.alert-warning {
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #78350f;
+    margin: 0.75rem 0;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #1e3a5f;
+}
+section[data-testid="stSidebar"] * {
+    color: #cbd5e1;
+}
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #ffffff;
+}
+
+.stButton > button[kind="primary"] {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+.stButton > button[kind="primary"]:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+/* ANN architecture table style */
+.arch-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.92rem;
+}
+.arch-table th {
+    background: #1e3a5f;
+    color: white;
+    padding: 0.65rem 1rem;
+    text-align: left;
+}
+.arch-table td {
+    padding: 0.55rem 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+}
+.arch-table tr:nth-child(even) td {
+    background: #f8fafc;
+}
